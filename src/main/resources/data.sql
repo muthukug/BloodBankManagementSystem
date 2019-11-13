@@ -1,0 +1,173 @@
+insert into admin
+(
+   phone_no,
+   password,
+   name,
+   user_name
+)
+values
+(
+   '9597802626',
+   'Muthu@123',
+   'MuthuKumaran',
+   'Mkg'
+),
+(
+   '8754309689',
+   'Mahesh@123',
+   'Mahesh',
+   'Mks'
+);
+insert into patient
+(
+   patient_id,
+   phone_no,
+   name,
+   location,
+   blood_group
+)
+values
+(
+   1001,
+   '9597802626',
+   'Ameen',
+   'Marathahalli',
+   'O+ve'
+),
+(
+   1002,
+   '9486867981',
+   'Vijaylakshmi',
+   'BigBazaar',
+   'B+ve'
+),
+(
+   1003,
+   '9597805959',
+   'Vinoth',
+   'ElectronicCity',
+   'AB+ve'
+),
+(
+   1004,
+   '9997802626',
+   'Srinath',
+   'Marathahalli',
+   'B-ve'
+),
+(
+   1005,
+   '9597456626',
+   'Ribhu',
+   'BigBazaar',
+   'O-ve'
+),
+(
+   1006,
+   '9127802626',
+   'Aiswaraya',
+   'Marathahalli',
+   'O+ve'
+),
+(
+   1007,
+   '9597812326',
+   'Sowmya',
+   'Marathahalli',
+   'O-ve'
+),
+(
+   1008,
+   '9597803976',
+   'Jason',
+   'Marathahalli',
+   'AB+ve'
+),
+(
+   1009,
+   '9597808877',
+   'Padhu',
+   'ElectronicCity',
+   'O-ve'
+),
+(
+   1010,
+   '9790802626',
+   'Priyan',
+   'ElectronicCity',
+   'O-ve'
+);
+insert into register
+(
+   email,
+   phone_no,
+   name,
+   location,
+   blood_group,
+   password
+)
+values
+(
+   'Anusha@gmail.com',
+   '9790215352',
+   'Anusha',
+   'Marathahalli',
+   'O+ve',
+   'Anusha@123'
+),
+(
+   'Harsha@gamil.com',
+   '7708879981',
+   'Harsha',
+   'BigBazaar',
+   'B+ve',
+   'Harsha@123'
+),
+(
+   'Praveen@gmail.com',
+   '9790216677',
+   'Praveen',
+   'ElectronicCity',
+   'AB+ve',
+   'Praveen@123'
+),
+(
+   'Naveen@gmail.com',
+   '9790200352',
+   'Naveen',
+   'Marathahalli',
+   'O+ve',
+   'Naveen@123'
+),
+(
+   'Rahul@gmail.com',
+   '9090215352',
+   'Rahul',
+   'BigBazaar',
+   'O-ve',
+   'Rahul@123'
+),
+(
+   'Karthik@gmail.com',
+   '9790666352',
+   'Karthik',
+   'ElectronicCity',
+   'B-ve',
+   'Karthik@123'
+),
+(
+   'Devi@gmail.com',
+   '9794215352',
+   'Devi',
+   'ElectronicCity',
+   'AB+ve',
+   'Devi@123'
+),
+(
+   'Maha@gmail.com',
+   '9790233352',
+   'Maha',
+   'BigBazaar',
+   'AB+ve',
+   'Maha@123'
+);
